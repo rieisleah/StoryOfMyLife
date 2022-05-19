@@ -1,19 +1,19 @@
 import React from 'react';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import NucampLogo from './app/assets/img/logo.png';
+import Selfie from './app/assets/img/selfie.JPG';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar dark color="primary" sticky="top" expand="md">
+      <Navbar color="info" sticky="top" expand="lg" >
         <Container>
           <NavbarBrand href="/">
-            <img src={NucampLogo} alt="nucamp logo" />
+            <img src={Selfie} alt="nucamp logo" />
           </NavbarBrand>
         </Container>
       </Navbar>
-      hello world!
+      This is my story
     </div>
   );
 }
